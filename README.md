@@ -1,2 +1,5 @@
 # UAS-LAB-PEMROGRAMAN KELOMPOK 4
-Rahmatun Nisa (2308107010016)
+## Anggota :
+1. Dio Ferdi Jaya (2308107010018)	
+2. Muhammad Al Amin (2308107010014)	
+3. Rahmatun Nisa (2308107010016)
