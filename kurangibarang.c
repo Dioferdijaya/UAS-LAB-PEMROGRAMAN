@@ -54,7 +54,7 @@ int main() {
     struct Barang barang[100];
     int jumlah_barang = 0;
 
-    // Check if the file exists
+    
     FILE *file = fopen("barang.txt", "r");
     if (file == NULL) {
         file = fopen("barang.txt", "w");
@@ -67,7 +67,7 @@ int main() {
         fclose(file);
     }
 
-    // Read data from the file
+    
     file = fopen("barang.txt", "r");
     if (file != NULL) {
         while (fscanf(file, "%s %d %d", barang[jumlah_barang].nama, &barang[jumlah_barang].harga, &barang[jumlah_barang].jumlah) == 3) {
