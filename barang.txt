@@ -12,3 +12,4 @@ roti_kelapa 5000 50
 mie_sedap_goreng 3000 70
 mie_sedap_rebus 3000 60
 roti_kacang 4000 90
+tepung_beras 8000 60
