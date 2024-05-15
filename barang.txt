@@ -1,4 +1,14 @@
-
-
-beras 176000 4
-sampo 12000 45
+pepsodent 7000 12
+sampo 3000 8
+sabun 3000 80
+bumbu_nasigoreng 5000 40
+beras 150000 18
+micin 1000 70
+sikat_gigi 4000 25
+telur 2500 100
+aqua_sedang 4000 90
+roti_selai 8000 20
+roti_kelapa 5000 50
+mie_sedap_goreng 3000 70
+mie_sedap_rebus 3000 60
+roti_kacang 4000 90

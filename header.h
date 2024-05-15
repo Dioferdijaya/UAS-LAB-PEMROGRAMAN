@@ -13,6 +13,8 @@ void tambahBarang(struct Barang barang[], int *jumlah_barang, int kapasitas_toko
 void kurangiBarang(struct Barang barang[], int *jumlah_barang);
 void tampilkanBarang(struct Barang barang[], int jumlah_barang);
 void pembayaran(struct Barang barang[], int jumlah_barang);
+void beliBarang(struct Barang barang[], int *jumlah_barang);
 void muatDataBarang(struct Barang barang[], int *jumlah_barang);
 
-#endif /* TOKO_H */
+
+#endif

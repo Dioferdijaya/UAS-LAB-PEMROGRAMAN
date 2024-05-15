@@ -29,13 +29,13 @@ int main() {
         
     do {
         printf("Selamat datang di toko 12 store\n");
-      
         printf("Silahkan masukan pilihan anda\n");
         printf("1. Menambahkan barang ke toko 12 store\n");
         printf("2. Mengurangi barang pada toko 12 store\n");
         printf("3. Melihat seluruh daftar barang toko 12 store\n");
         printf("4. Melakukan transaksi pembayaran\n");
-        printf("5. Keluar\n");
+        printf("5. Membeli barang dari toko 12 store\n");
+        printf("6. Keluar\n");
         printf("Pilih opsi: ");
         scanf(" %c", &opsi);
 
@@ -57,13 +57,17 @@ int main() {
                 break;
 
             case '5':
+                beliBarang(barang, &jumlah_barang);
+                break;
+
+            case '6':
                 printf("Terima kasih. Program selesai.\n");
                 break;
 
             default:
                 printf("Opsi tidak valid. Silakan pilih opsi yang sesuai.\n");
         }
-    } while (opsi != '5');
+    } while (opsi != '6');
     
     }else{printf("sandi yang anda masukan salah atau username salah\n");
 
